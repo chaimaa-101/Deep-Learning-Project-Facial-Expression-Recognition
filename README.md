@@ -54,17 +54,17 @@ It sequentially applies **Channel Attention** and **Spatial Attention** to help 
 
 <figure>
   <img src="images/cbam_architecture.png" alt="CBAM Architecture" width="600">
-  <figcaption><em>Figure 4:</em> CBAM-5CNN architecture illustrating convolutional blocks and attention mechanisms.</figcaption>
+  <figcaption><em>Figure 1:</em> CBAM-5CNN architecture illustrating convolutional blocks and attention mechanisms.</figcaption>
 </figure>
 
 <figure>
   <img src="images/channel_attention.png" alt="Channel Attention" width="600">
-  <figcaption><em>Figure 5:</em> Channel Attention map highlighting the most informative feature channels.</figcaption>
+  <figcaption><em>Figure 2:</em> Channel Attention map highlighting the most informative feature channels.</figcaption>
 </figure>
 
 <figure>
   <img src="images/spacial_attention.png" alt="Spatial Attention" width="600">
-  <figcaption><em>Figure 6:</em> Spatial Attention map focusing on key facial regions like eyes, eyebrows, and mouth.</figcaption>
+  <figcaption><em>Figure 3:</em> Spatial Attention map focusing on key facial regions like eyes, eyebrows, and mouth.</figcaption>
 </figure>
 
 ### CBAM-5CNN Architecture 🧠  
@@ -96,17 +96,17 @@ It sequentially applies **Channel Attention** and **Spatial Attention** to help 
 
 <figure>
   <img src="images/cbam_accuracy.png" alt="CBAM-5CNN Accuracy" width="600">
-  <figcaption><em>Figure 7:</em> Training and validation accuracy curves for CBAM-5CNN model.</figcaption>
+  <figcaption><em>Figure 4:</em> Training and validation accuracy curves for CBAM-5CNN model.</figcaption>
 </figure>
 
 <figure>
   <img src="images/cbam_loss.png" alt="CBAM-5CNN Loss" width="600">
-  <figcaption><em>Figure 8:</em> Training and validation loss curves for CBAM-5CNN model.</figcaption>
+  <figcaption><em>Figure 5:</em> Training and validation loss curves for CBAM-5CNN model.</figcaption>
 </figure>
 
 <figure>
   <img src="images/cbam_confusion_matrix.png" alt="CBAM-5CNN Confusion Matrix" width="600">
-  <figcaption><em>Figure 9:</em> Confusion matrix of CBAM-5CNN predictions across seven emotions.</figcaption>
+  <figcaption><em>Figure 6:</em> Confusion matrix of CBAM-5CNN predictions across seven emotions.</figcaption>
 </figure>
 
 ## 2. EfficientNet Architecture (Pretrained Model)
@@ -140,7 +140,7 @@ It integrates **MBConv blocks** and **Squeeze-and-Excitation (SE)** modules for 
 
 <figure>
   <img src="images/efficientnet_architecture.png" alt="EfficientNet Architecture" width="600">
-  <figcaption><em>Figure 10:</em> EfficientNetB3 architecture used with transfer learning for facial emotion recognition.</figcaption>
+  <figcaption><em>Figure 7:</em> EfficientNetB3 architecture used with transfer learning for facial emotion recognition.</figcaption>
 </figure>
 
 ### EfficientNetB3 Architecture 🧠  
@@ -165,17 +165,17 @@ It integrates **MBConv blocks** and **Squeeze-and-Excitation (SE)** modules for 
 
 <figure>
   <img src="images/effnet_accuracy.png" alt="EfficientNetB3 Accuracy" width="600">
-  <figcaption><em>Figure 11:</em> Training and validation accuracy curves for EfficientNetB3 model. [Source]</figcaption>
+  <figcaption><em>Figure 8:</em> Training and validation accuracy curves for EfficientNetB3 model. [Source]</figcaption>
 </figure>
 
 <figure>
   <img src="images/effnet_loss.png" alt="EfficientNetB3 Loss" width="600">
-  <figcaption><em>Figure 12:</em> Training and validation loss curves for EfficientNetB3 model.</figcaption>
+  <figcaption><em>Figure 9:</em> Training and validation loss curves for EfficientNetB3 model.</figcaption>
 </figure>
 
 <figure>
   <img src="images/effnet_confusion_matrix.png" alt="EfficientNetB3 Confusion Matrix" width="600">
-  <figcaption><em>Figure 13:</em> Confusion matrix of EfficientNetB3 predictions across seven emotions.</figcaption>
+  <figcaption><em>Figure 10:</em> Confusion matrix of EfficientNetB3 predictions across seven emotions.</figcaption>
 </figure>
 
 ## Comparative Analysis ⚖️
