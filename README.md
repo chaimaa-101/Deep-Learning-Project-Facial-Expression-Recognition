@@ -31,8 +31,8 @@ Both models were trained and tested on a newly curated dataset, FER2024_CK+, com
 | CK+ | High-quality dataset used for benchmarking facial expression recognition. | 920 | 7 | [CK+ Dataset](https://www.kaggle.com/datasets/shuvoalok/ck-dataset) |
 
 * **Combined Dataset: FER2024_CK+**
- * Final dataset (7 common emotions).
- * Improved generalization by combining **CK+**’s clean samples with **FER2024**’s diversity.
+  * Final dataset (7 common emotions).
+  * Improved generalization by combining **CK+**’s clean samples with **FER2024**’s diversity.
 
 
 # Deep Learning Architectures: CBAM-5CNN & EfficientNetB3
