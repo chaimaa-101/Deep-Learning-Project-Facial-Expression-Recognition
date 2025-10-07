@@ -22,7 +22,7 @@ Both models were trained and tested on a newly curated dataset, FER2024_CK+, com
 * Evaluate model performance using quantitative metrics and visual analysis.  
 * Explore the potential for real-time emotion recognition applications.
 
-## 3. Dataset Overview
+## Dataset Overview
 
 | Dataset | Description | Images | Emotions | Source |
 |----------|--------------|---------|-----------|---------|
@@ -30,12 +30,9 @@ Both models were trained and tested on a newly curated dataset, FER2024_CK+, com
 | FER2024 | Cleaned and relabeled version of FER2013. | 35,784 | 10 | [FER 2024 Dataset](https://github.com/FERProject/FER24_CKPlus/releases/tag/FER24_CK%2B) |
 | CK+ | High-quality dataset used for benchmarking facial expression recognition. | 920 | 7 | [CK+ Dataset](https://www.kaggle.com/datasets/shuvoalok/ck-dataset) |
 
-
 * **Combined Dataset: FER2024_CK+**
-
-* Final dataset (7 common emotions).
-* Balanced distribution across training (70%) and testing (30%).
-* Improved generalization by combining **CK+**’s clean samples with **FER2024**’s diversity.
+ * Final dataset (7 common emotions).
+ * Improved generalization by combining **CK+**’s clean samples with **FER2024**’s diversity.
 
 
 # Deep Learning Architectures: CBAM-5CNN & EfficientNetB3
